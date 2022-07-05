@@ -1,0 +1,13 @@
+
+version: 2
+
+models:
+
+  - name: business_model
+    description: "Information needed for business model"        
+    columns:
+      - name: business_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
