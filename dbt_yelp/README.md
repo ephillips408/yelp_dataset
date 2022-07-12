@@ -9,11 +9,11 @@ The `profiles.yml` file in the `.dbt` directory needs to match the `profiles.yml
 
 Use the command `dbt debug` in order to make sure that dbt is connected to Postgres correctly.
 
-### Using the starter project
+Use the command `dbt test` to make sure that all tests defined in `models/schema.yml` are passing.
 
-Try running the following commands:
-- dbt run
-- dbt test
+Use the command `dbt compile` to compile the SQL that can be queried against the database. The SQL queries will be saved in the `target/compiled` directory. Do note that this directory is ignored by the `.gitignore` file in this directory.
+
+Finally, use `dbt run` to create the models and views in the database.
 
 
 ### Resources:
