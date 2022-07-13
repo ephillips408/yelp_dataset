@@ -20,6 +20,7 @@ final as (
     business_info.latitude,
     business_info.longitude,
     business_info.stars,
+    business_info.restaurants_price_range as price_range,
     business_info.review_count,
     business_info.is_open,
     business_info.primary_category,

@@ -11,3 +11,5 @@ models:
         tests:
           - unique
           - not_null
+      - name: price_range
+        description: "Given as a value between 1 and 4, with 1 being the least expensive, and 4 being the most expensive"    
