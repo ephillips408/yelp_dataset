@@ -8,5 +8,5 @@ This is the cloud branch of the directory. This branch will pull the raw data fr
 
 In order to run the code in the `notebooks` directory, a `.env` file will need to be created in the `notebooks` directory with the following credentials.
 
-`AWS_ACCESS_KEY_ID=your_aws_access_key_id`
-`AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key`
+- `AWS_ACCESS_KEY_ID=your_aws_access_key_id`
+- `AWS_SECRET_ACCESS_KEY=your_aws_secret_access_key`
